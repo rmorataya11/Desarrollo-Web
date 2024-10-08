@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #98ff96;
+    color: #003400;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #003400;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #5ccb5f;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #006414;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+article h1, article h2, article h3 {
+    color: white;
+    font-size: 2rem;
+}
+
+article p, article a {
+    color: #009929;
+    font-size: 1.2rem;
+}
+
+article a:hover {
+    color: #003400;
+    font-weight: bold;
+}
+
+article .item a {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+article .item a:hover {
+    color: #003400;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.intro {
+    background-color: #006414;
+}
+
+.descripcion-guias {
+    background-color: #5ccb5f;
+}
+
+.descripcion {
+    background-color: #98ff96;
+    padding: 15px;
+    border-radius: 5px;
+    color: #003400;
+}
+
+.image {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #003400;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    article {
+        padding: 15px;
+    }
+
+    article h1, article h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    article .item a {
+        font-size: 1.1rem;
+    }
+
+    article h1, article h2, article h3 {
+        font-size: 1.2rem;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    nav ul li a {
+        font-size: 1.1rem;
+    }
+}
